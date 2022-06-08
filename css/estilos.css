@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+        height: 100vh;
+    }
+
+.caja{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 100vh;   
+}
+
+.cajita{
+    position: fixed;
+    justify-content: right;
+    top: 10em;
+    bottom: 11em;
+    left: 60px;
+    width: 70%;
+    height: max-content;
+}
+
+video{
+     position: static;
+     width: auto;
+     height: auto;
+    }
+
+nav{
+    position: fixed;
+    display: flex;
+    justify-content: space-between; 
+    color: white;
+    font-size: 1.6em;
+    font-family: 'Archivo Black', sans-serif;
+    width: 90%;
+    height: auto;
+    left: 3%;
+    padding: 20px;
+      
+}
+
+.formato1{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 6em;    
+    color: white;
+    letter-spacing: -1px;
+    
+}
+
+.formato2{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 5em;    
+    color: white;
+    letter-spacing: -5px;
+   
+}
+
+.formato3{
+    color: white;
+    font-size: 2em;
+    font-family: 'Anybody', cursive;
+    letter-spacing: -2px;
+}
+
+.formato4{
+    font-family: 'Anybody', cursive;
+    font-size: large;
+    letter-spacing: -1px;
+    color: black;
+    background: padding-box, white;
+    padding: 10px;
+    width: auto;
+}
+
+.foot{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 15px;
+    width:50%;
+     
+}
